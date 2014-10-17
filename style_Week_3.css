@@ -1,0 +1,44 @@
+body {
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  background: url(whitegrid.jpg) repeat;
+}
+#wrapper {
+  width: 960px;
+  margin: 20px auto;
+}
+
+img {
+	border: 6px solid grey;
+}
+
+h2 {
+	color: orange; 
+	font-size:20px;
+}
+
+h3 {
+	color: green; 
+	font-size:20px;
+}
+
+h1 {
+   font-size: 36px;	
+   font-style: italic;
+   font-family:"Arial";
+}
+
+table {
+	line-height: 28px;
+}
+
+div#wrapper{
+	background-color: white;
+	width:960px;
+	margin:20px auto;
+	padding:20px;
+}
+
+a:hover {
+	color:purple;
+}

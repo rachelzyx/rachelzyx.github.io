@@ -8,24 +8,38 @@ body {
   margin: 20px auto;
 }
 
-img {
-	border: 6px solid grey;
-}
-
 h2 {
-	color: orange; 
-	font-size:20px;
+	color: #F781BE; 
+	font-size:28px;
+	font-family:"Calibri"
 }
 
 h3 {
-	color: green; 
+	color: #555; 
 	font-size:20px;
+	font-family:"Calibri"
 }
+
+h4 {
+	color: #555; 
+	font-size:16px;
+	font-family:"Calibri"
+}
+
+h5 {
+	color: #FFFFFF; 
+	font-size:16px;
+	font-family:"Calibri"
+}
+
+
+
 
 h1 {
    font-size: 36px;	
-   font-style: italic;
-   font-family:"Arial";
+   font-style: bold;
+   color: #555;
+   font-family:"Calibri";
 }
 
 table {
@@ -40,5 +54,17 @@ div#wrapper{
 }
 
 a:hover {
-	color:purple;
+	color:#5bc0de;
+}
+
+.jumbotron h1{
+	color: #555;
+}
+
+.jumbotron h2{
+	color: #eee;
+}
+
+.jumbotron{
+	background-color: #5bc0de;
 }

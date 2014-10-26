@@ -1,35 +1,36 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
   background: url(whitegrid.jpg) repeat;
 }
+
 #wrapper {
-  width: 960px;
-  margin: 20px auto;
+  width: 660px;
+  margin: 220px auto;
+  background-color: #FFFFFF 0.5;
 }
 
 h2 {
-	color: #F781BE; 
+	color: #5bc0de; 
 	font-size:28px;
-	font-family:"Calibri"
+	font-family:"Calibri";
 }
 
 h3 {
 	color: #555; 
 	font-size:20px;
-	font-family:"Calibri"
+	font-family:"Calibri";
 }
 
 h4 {
 	color: #555; 
 	font-size:16px;
-	font-family:"Calibri"
+	font-family:"Calibri";
 }
 
 h5 {
 	color: #FFFFFF; 
 	font-size:16px;
-	font-family:"Calibri"
+	font-family:"Calibri";
 }
 
 
@@ -43,7 +44,7 @@ h1 {
 }
 
 table {
-	line-height: 28px;
+	line-height: 22px;
 }
 
 div#wrapper{
@@ -58,7 +59,7 @@ a:hover {
 }
 
 .jumbotron h1{
-	color: #555;
+	color: #5bc0de;
 }
 
 .jumbotron h2{
@@ -66,13 +67,21 @@ a:hover {
 }
 
 .jumbotron{
-	background-color: #5bc0de;
+	background-color: #5E4343;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #C7B6B6;
+}
+
+.table-border tbody tr:border td, .table-border tbody tr:border th {
+  border-color: black;
 }
 
 .nav-pills > li.active > a {
-    background-color:#5bc0de;
+    background-color:#5E4343;
 }
 
 .nav-pills > li > a:hover {
-    background-color:#555;
+    background-color:#5E4343;
 }
